@@ -2,7 +2,7 @@
 title: "Studio2"
 description: "Klang und Ruhe"
 date: 2021-11-16T23:04:08+11:00
-draft: false
+draft: true
 menu: main
 weight: 10
 images: [3_gitarrenunterricht.jpg]
