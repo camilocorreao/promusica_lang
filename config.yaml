@@ -1,8 +1,60 @@
 baseURL: http://localhost/
+languageCode: "de-at"
+# for website
+defaultContentLanguage: "de"
 title: proMusica
 # alternate copyright company text
 copyright: Camilo Correa
 # controls number of pages displayed on list pages
+languages:
+  de:
+    contentDir: content/de
+    languageName: Deutsch
+    menu:
+      main:
+        - identifier: serviceleistung
+          name: Serviceleistung
+          weight: 20
+        - parent: serviceleistung
+          weight: 40
+          params:
+            divider: true
+    weight:
+      10
+      # - identifier: shop
+      #   name: Shop
+      #   weight: 60
+      # - parent: shop
+      #   weight: 40
+      #   params:
+      #     divider: true
+  en:
+    contentDir: content/en
+    languageName: English
+    menu:
+      main:
+        - identifier: serviceleistung
+          name: Services
+          weight: 20
+        - parent: serviceleistung
+          weight: 40
+          params:
+            divider: true
+    weight: 20
+  es:
+    contentDir: content/es
+    languageName: Español
+    menu:
+      main:
+        - identifier: serviceleistung
+          name: services
+          weight: 20
+        - parent: services
+          weight: 40
+          params:
+            divider: true
+    weight: 30
+
 paginate: 5
 # controls the summary length on list pages
 summaryLength: 10

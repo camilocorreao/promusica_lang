@@ -13,6 +13,10 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 
+@import "bootstrap/scss/_variables-dark";
+
+@import "bootstrap/scss/_maps";
+
 // 4. Include any optional Bootstrap components as you like
 // Configuration
 @import "bootstrap/scss/utilities";
@@ -61,3 +65,4 @@
 
 // import syntx highlighting css
 @import "syntax.scss";
+
