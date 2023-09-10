@@ -1,0 +1,34 @@
+
+$heights : 5, 10, 15, 20;
+
+@each $height in $heights {
+    .img-h-#{$height} {
+        max-height: #{$height}rem;
+        object-fit: contain;
+    }
+}
+
+.widget {
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    
+
+    ul {
+        padding-left: 0;
+        margin: 0;
+    }
+        
+        li {
+            padding-bottom: 0.5rem;
+            list-style:none;
+        }
+    a {
+        text-decoration: none;
+    }
+}
+
+.logo { 
+    width: 174.25px;
+    height: 55px;
+    margin-top: 5px;
+  }
