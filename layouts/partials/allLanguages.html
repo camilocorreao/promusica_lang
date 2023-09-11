@@ -1,11 +1,11 @@
-<div class="dropdown">
+<div class="btn-group">
   <button class="btn btn-info btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Sprache
     <span class="caret"></span>
   </button>
-  <select class="dropdown-menu">
+  <ul class="dropdown-menu">
     {{- range $.Site.Home.AllTranslations -}}
-      <option class="dropdown-item" type="button" href="{{- .Permalink -}}">{{- .Language.LanguageName -}}</option>
+      <li><a class="dropdown-item" href="{{- .Permalink -}}">{{- .Language.LanguageName -}}</a></li>
     {{- end -}}
-  </select>
+  </ul>
 </div>
