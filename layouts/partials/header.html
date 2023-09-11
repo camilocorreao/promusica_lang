@@ -15,6 +15,7 @@
             href="{{ .URL }}" {{ if eq .Params.blank true }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
           </li>
           {{ end }}
+          {{ partial "allLanguages" . }}
         </ul>
       </div>
     </div>

@@ -9,18 +9,22 @@ copyright: Camilo Correa
 languages:
   de:
     contentDir: content/de
+    disabled: false
+    languageCode: "de-AT"
+    languageDirection: ltr
     languageName: Deutsch
+    weight: 1
     menu:
-      main:
-        - identifier: serviceleistung
-          name: Serviceleistung
-          weight: 20
-        - parent: serviceleistung
-          weight: 40
-          params:
-            divider: true
-    weight:
-      10
+      main
+      # main:
+      #   - identifier: serviceleistung
+      #     name: Serviceleistung
+      #     weight: 20
+      #   - parent: serviceleistung
+      #     weight: 40
+      #     params:
+      #  divider: true
+
       # - identifier: shop
       #   name: Shop
       #   weight: 60
@@ -30,29 +34,38 @@ languages:
       #     divider: true
   en:
     contentDir: content/en
+    disabled: false
+    languageCode: "en-US"
+    languageDirection: ltl
     languageName: English
+    weight: 2
     menu:
-      main:
-        - identifier: serviceleistung
-          name: Services
-          weight: 20
-        - parent: serviceleistung
-          weight: 40
-          params:
-            divider: true
+      main
+      # main:
+      #  - identifier: serviceleistung
+      #    name: Services
+      #    weight: 20
+      #  - parent: serviceleistung
+      #    weight: 40
+      #    params:
+      #      divider: true
     weight: 20
   es:
     contentDir: content/es
+    disabled: true
+    languageCode: "es-ES"
+    languageDirection: ltr
     languageName: Español
     menu:
-      main:
-        - identifier: serviceleistung
-          name: services
-          weight: 20
-        - parent: services
-          weight: 40
-          params:
-            divider: true
+      main
+      # main:
+      #  - identifier: serviceleistung
+      #    name: services
+      #    weight: 20
+      #  - parent: services
+      #    weight: 40
+      #    params:
+      #      divider: true
     weight: 30
 
 paginate: 5
