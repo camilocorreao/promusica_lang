@@ -1,5 +1,5 @@
 baseURL: http://localhost/
-languageCode: "de-at"
+languageCode: "de-AT"
 # for website
 defaultContentLanguage: "de"
 title: proMusica
