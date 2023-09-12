@@ -14,9 +14,9 @@ Welcome!
 <br><br>
 proMúsica Studio provides musicians, podcasters, and producers a peaceful place for:
 
-- **Recording,**,
-- **Producing audio and video content, and**
-- **Rehearsing.**
+- **Recording**,
+- **Producing audio / video content**, and
+- **Rehearsing**
 
 Equipped with a Feurich Grand Piano 179 Dynamic II and excellent acoustics, the studio offers a disturbance-free location and all the amenities for your break.
 
