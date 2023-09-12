@@ -1,6 +1,6 @@
 ---
-title: "Kontakt"
-slug: kontakt
+title: "Contact"
+slug: contact
 date: 2021-12-17T13:31:12+11:00
 draft: false
 menu:
@@ -14,7 +14,7 @@ gmapURL: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2659.174718070939
 
 # contact form
 form:
-  title: Bitte senden Sie uns eine Nachricht
+  title: Please send us a message
   id: js-contactForm
   inputs:
     - id: contact-name

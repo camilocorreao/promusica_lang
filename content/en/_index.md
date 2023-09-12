@@ -1,6 +1,6 @@
 ---
 title: "Studio"
-description: "Klang und Ruhe"
+description: "Sound and Quiet "
 date: 2021-11-16T23:04:08+11:00
 draft: false
 menu: main
@@ -10,16 +10,16 @@ images: [3_gitarrenunterricht.jpg]
 
 {{< img-index "1" "das Studio in der Böcklinstrasse" >}}
 
-Herzlich willkommen!
+Welcome!
 <br><br>
-proMúsica Studio bietet Musikern, Podcastern und Produzenten einen ruhigen Ort zum
+proMúsica Studio provides musicians, podcasters, and producers a peaceful place for:
 
-- **Aufnehmen**,
-- **Produzieren von Ton- und Videoinhalten** und zu
-- **Proben**
+- **Recording,**,
+- **Producing audio and video content, and**
+- **Rehearsing.**
 
-Ausgestattet mit einem **Feurich Flügel 179 Dynamic II** und einer guten Akustik, bietet das Studio eine störungsfreie Lage und alle Annehmlichkeiten für die Pause.
+Equipped with a Feurich Grand Piano 179 Dynamic II and excellent acoustics, the studio offers a disturbance-free location and all the amenities for your break.
 
-- **Instrumentalunterricht** wird ebenfalls angeboten.
+- **Instrumental lessons** are also available.
 
-Das Studio ist sehr nah am Prater, dem schönsten grünen Park in Wien und dem erneuerten und verbreiterten Erdberger Steg. Dies ist ideal für Foto- und Videoaufnahmen im Freien. Bis Bald!
+The studio is very close to the Prater, Vienna's most beautiful green park, and the renewed and expanded Erdberger Steg. This is ideal for outdoor photo and video shoots. See you soon!
