@@ -1,0 +1,7 @@
+- name: Shop-data
+  url: /shop-data
+  submenu:
+    - name: guitars
+      url: /shop-data/guitars
+    - name: Accessories
+      url: /shop-data/accessories
