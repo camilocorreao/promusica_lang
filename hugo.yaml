@@ -6,7 +6,6 @@ title: proMusica
 # alternate copyright company text
 copyright: Camilo Correa
 # controls number of pages displayed on list pages
-
 languages:
   de:
     contentDir: content/de
@@ -15,46 +14,59 @@ languages:
     # languageDirection: ltr
     languageName: Deutsch
     weight: 1
-    menu: main
+    menu:
+      main
+      # main:
+      #   - identifier: serviceleistung
+      #     name: Serviceleistung
+      #     weight: 20
+      #   - parent: serviceleistung
+      #     weight: 40
+      #     params:
+      #  divider: true
 
+      # - identifier: shop
+      #   name: Shop
+      #   weight: 60
+      # - parent: shop
+      #   weight: 40
+      #   params:
+      #     divider: true
   en:
     contentDir: content/en
     disabled: false
     languageCode: "en-US"
     # languageDirection: rtl
     languageName: English
-    menu: main
     weight: 2
-
+    menu:
+      main
+      # main:
+      #  - identifier: serviceleistung
+      #    name: Services
+      #    weight: 20
+      #  - parent: serviceleistung
+      #    weight: 40
+      #    params:
+      #      divider: true
+    weight: 20
   es:
     contentDir: content/es
     disabled: true
     languageCode: "es-ES"
-    # languageDirection: ltr
+    languageDirection: ltr
     languageName: Español
-    menu: main
+    menu:
+      main
+      # main:
+      #  - identifier: serviceleistung
+      #    name: services
+      #    weight: 20
+      #  - parent: services
+      #    weight: 40
+      #    params:
+      #      divider: true
     weight: 30
-
-menu:
-  - identifier: section
-    name: section
-    pageRef: de/section
-    children:
-      - identifier: product_1
-        name: Gitars
-        pageRef: de/section/product_1
-        parent: section
-        weight: 1
-      - identifier: product_2
-        name: Zubehör
-        pageRef: de/section/product_2
-        parent: section
-        weight: 2
-      - identifier: product_3
-        name: Andere
-        pageRef: de/section/product_3
-        parent: section
-        weight: 3
 
 paginate: 5
 # controls the summary length on list pages

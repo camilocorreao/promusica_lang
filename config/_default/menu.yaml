@@ -1,0 +1,9 @@
+menu2:
+  - name: Section
+    url: "/de/section"
+    dropdown: true
+    children:
+      - name: Gitars
+        url: "/section/product_1"
+      - name: Zubehör
+        url: "/section/product_2"
