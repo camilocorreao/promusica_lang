@@ -36,25 +36,9 @@ languages:
     weight: 30
 
 menu:
-  - identifier: section
-    name: section
-    pageRef: de/section
-    children:
-      - identifier: product_1
-        name: Gitars
-        pageRef: de/section/product_1
-        parent: section
-        weight: 1
-      - identifier: product_2
-        name: Zubehör
-        pageRef: de/section/product_2
-        parent: section
-        weight: 2
-      - identifier: product_3
-        name: Andere
-        pageRef: de/section/product_3
-        parent: section
-        weight: 3
+  main:
+    - identifier: products
+      name: Products
 
 paginate: 5
 # controls the summary length on list pages
